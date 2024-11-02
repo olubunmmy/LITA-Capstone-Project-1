@@ -1,7 +1,7 @@
 # LITA-Capstone-Project-1
 Project conducted during LITA Data Analysis training
 
-# Project Title: # Capstone Project: Sales Data Analysis
+# Project Title:Capstone Project: Sales Data Analysis
 
 
 ### Project Overview
