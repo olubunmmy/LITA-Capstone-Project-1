@@ -7,6 +7,17 @@ Project conducted during LITA Data Analysis training
 ### Project Overview
 This capstone project aims on performing a sales data analysis using  employing tools like Excel  pivot tables, SQL queries, and Power BI visualizations to derive meaningful insights, calculate key performance metrics, and present findings in an interactive dashboard.
 
+### Tools Used
+
+- Microsoft Excel [Download Here](https://www.microsoft.com)
+  1. For Data Cleaning
+  2. For Analysis
+  3. For  Visualization
+- SQL-Structured Query Language for Querying of data
+- Github for Portfolio building
+
+
+
 ## 3. Data Preparation
 
 ### Data Cleaning
