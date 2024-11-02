@@ -5,12 +5,30 @@ Project conducted during LITA Data Analysis training
 
 
 ### Project Overview
-This capstone project focuses on performing a comprehensive sales data analysis using Excel pivot tables, SQL queries, and Power BI visualizations. The goal is to derive meaningful insights from sales data, calculate key performance metrics, and present findings in an interactive dashboard.
+This capstone project aims on performing a sales data analysis using  employing tools like Excel  pivot tables, SQL queries, and Power BI visualizations to derive meaningful insights, calculate key performance metrics, and present findings in an interactive dashboard.
+
+## 3. Data Preparation
+
+### Data Cleaning
+- **Handling Missing Values**: Identify and fill or remove missing data.
+- **Data Types**: Ensure all columns have the correct data types (e.g., dates, integers).
+- **Outlier Detection**: Identify and handle any outliers in the sales data.
+
+### Data Transformation
+- **Date Formatting**: Convert `Order Date` to a standard format.
+- **Creating New Variables**: Generate additional columns for year, month, and quarter from `Order Date` for easier analysis.
+
+## 4. Exploratory Data Analysis (EDA) using  employing tools like Excel pivot table pivot tables, SQL queries, and Power BI visualizations.By employing tools like Excel, SQL, and Power BI, we will perform exploratory data analysis (EDA) to derive actionable insights that can drive sales strategies. The goal is to derive meaningful insights from sales data, calculate key performance metrics, and present findings in an interactive dashboard.
 
 ---
 
 #### Objective:
 To analyze sales data across various regions, product categories, and order dates to identify trends and optimize sales strategies.
+- To understand sales performance over time.
+- To identify trends and patterns in sales data.
+- To assess the impact of various factors on sales performance.
+- To create visual dashboards for stakeholders.
+
 
 #### Scope:
 - **Data Dimensions**:
@@ -18,8 +36,6 @@ To analyze sales data across various regions, product categories, and order date
   - **Products**: Analyze sales by product categories to determine bestsellers and underperformers.
   - **Order Dates**: Assess sales trends over time to identify seasonal variations and peak sales periods.
 
-
-### Capstone Project: Sales Data Analysis Using Pivot Tables in Excel, SQL, and Power BI
 
 
 ### 1. Project Setup
@@ -45,6 +61,18 @@ To analyze sales data across various regions, product categories, and order date
 ---
 
 ### 2. Data Preparation
+## 3. Data Preparation
+
+### Data Cleaning
+- **Handling Missing Values**: Identify and fill or remove missing data.
+- **Data Types**: Ensure all columns have the correct data types (e.g., dates, integers).
+- **Outlier Detection**: Identify and handle any outliers in the sales data.
+
+### Data Transformation
+- **Date Formatting**: Convert `Order Date` to a standard format.
+- **Creating New Variables**: Generate additional columns for year, month, and quarter from `Order Date` for easier analysis.
+
+## 4. Exploratory Data Analysis (EDA)
 
 #### 2.1. Loaded Data into Excel
 - Imported the sales data into Excel.
@@ -183,7 +211,6 @@ To analyze sales data across various regions, product categories, and order date
 This capstone project demonstrates a systematic approach to sales data analysis using pivot tables in Excel, SQL queries for database management, and Power BI for interactive visualizations. The insights derived can significantly impact strategic decision-making and enhance overall sales performance.
 
 
-# Capstone Project: Sales Data Analysis
 
 ## Table of Contents
 1. **Introduction**
