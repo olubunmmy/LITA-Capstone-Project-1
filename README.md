@@ -1,58 +1,51 @@
 # LITA-Capstone-Project-1
 Project conducted during LITA Data Analysis training
 
-# Project Title:Capstone Project: Sales Data Analysis
+# Project Title:Sales Performance Analysis for a Retail Store: A Data-Driven Approach to Optimize Growth
 
+## Table of Contents
+1. **Introduction**
+   - Project Overview
+   - Objectives
+2. **Data Collection**
+   - Data Sources
+   - Data Description
+3. **Data Preparation**
+   - Data Cleaning
+   - Data Transformation
+4. **Exploratory Data Analysis (EDA)**
+   - Descriptive Statistics
+   - Visualization
+   - Insights
+5. **Data Analysis Using SQL**
+   - Key Queries
+   - Results
+6. **Data Visualization with Power BI**
+   - Dashboard Creation
+   - Key Visuals
+7. **Conclusion**
+   - Summary of Findings
+   - Future Recommendations
+
+## Introduction
 
 ### Project Overview
-This capstone project aims on performing a sales data analysis using  employing tools like Excel  pivot tables, SQL queries, and Power BI visualizations to derive meaningful insights, calculate key performance metrics, and present findings in an interactive dashboard.
 
-### Tools Used
+#### Objectives
 
-- Microsoft Excel [Download Here](https://www.microsoft.com)
-  1. For Data Cleaning
-  2. For Analysis
-  3. For  Visualization
-- SQL-Structured Query Language for Querying of data
-- Github for Portfolio building
-
-
-
-## 3. Data Preparation
-
-### Data Cleaning
-- **Handling Missing Values**: Identify and fill or remove missing data.
-- **Data Types**: Ensure all columns have the correct data types (e.g., dates, integers).
-- **Outlier Detection**: Identify and handle any outliers in the sales data.
-
-### Data Transformation
-- **Date Formatting**: Convert `Order Date` to a standard format.
-- **Creating New Variables**: Generate additional columns for year, month, and quarter from `Order Date` for easier analysis.
-
-## 4. Exploratory Data Analysis (EDA) using  employing tools like Excel pivot table pivot tables, SQL queries, and Power BI visualizations.By employing tools like Excel, SQL, and Power BI, we will perform exploratory data analysis (EDA) to derive actionable insights that can drive sales strategies. The goal is to derive meaningful insights from sales data, calculate key performance metrics, and present findings in an interactive dashboard.
-
----
-
-#### Objective:
 To analyze sales data across various regions, product categories, and order dates to identify trends and optimize sales strategies.
 - To understand sales performance over time.
 - To identify trends and patterns in sales data.
 - To assess the impact of various factors on sales performance.
-- To create visual dashboards for stakeholders.
+- To create visual dashboards.
 
+  #### Data Collection
 
-#### Scope:
-- **Data Dimensions**:
-  - **Regions**: Examine sales performance across different geographical areas.
-  - **Products**: Analyze sales by product categories to determine bestsellers and underperformers.
-  - **Order Dates**: Assess sales trends over time to identify seasonal variations and peak sales periods.
+ ### Data Sources
+ All datasets were provided by our facilitator during the course of the LITA training
 
-
-
-### 1. Project Setup
-
-#### 1.1. Data Collection
-- **Data Source**: The data used for this project was provided by our facilitator. The dataset include fields like:
+ ### Data Description
+  The dataset include fields like:
   - Order ID
   - Customer ID
   - Product Name
@@ -62,14 +55,98 @@ To analyze sales data across various regions, product categories, and order date
   - Unit Price
   - Total Sales
     
-    
+ ### Tools Used
 
-#### 1.2. Tools Used
-- **Excel**: For data cleaning and pivot table analysis.
-- **SQL**: For querying data from the database.
-- **Power BI**: For creating interactive dashboards.
+- Microsoft Excel [Download Here](https://www.microsoft.com)
+  For data cleaning and pivot table analysis.
+  
+- SQL
+  For querying data from the database.
+  
+- Power BI
+  1.For creating interactive dashboards.
+  2. For Analysis
+  3. For  Visualization
+  
+- Github for Portfolio building
+
+
+## Exploratory Data Analysis (EDA)
+
+####  Loaded Data into Excel
+- Sales datasets were imported into Excel.
+- It was ensured that data is structured with the appropriate columns.
+
+####  Data Cleaning
+- **Removal Of Duplicates**:  Excel's feature was used to remove the duplicates in datasets
+  
+- **Formated Data**:It was ensured that  all columns were correctly formatted.
+
+- **Created a Total Sales Column**
+- Another new column was added in Excel for Total Sales:
+  ```excel
+  = Unit Price * Quantity Sold
+
+  ## Analysis Using Pivot Tables in Excel
+
+#### Creating Pivot Tables
+- **Inserting Pivot Table**: The data range was selected and inserted into a pivot table.
+  
+####  Key Pivot Table Analyses
+1. **Total Sales by  Product**:
+    'Products' were dragged to Rows and `Total Sales` to Values.
+     
+  
+2. **Sales by Region**:
+   - Region was dragged to Rows.
+   - Total Sales was dragged to Values.
+  
+3. **Sales by Month**:
+   - `Region` was dragged to Rows and `Total Sales` to Values.
+
+#### 3.3. Calculating Measures
+- **Average Sales per Product**:
+  - It was calculated using this Excel formula;
+
+  = AVERAGEIF(Product column,Product Category,Total Sales)
+  ```
+
+- **Total Revenue by Region**:
+  This measure was also calculated using the below excel metric
+  
 
 ---
+
+### 4. Data Analysis Using SQL
+
+#### 4.1. Database Setup
+- The cleaned sales data was imported into a SQL Server database 
+
+#### 4.2. Basic SQL Queries
+- **Total Sales per product**:
+  ```sql
+  SELECT Sum(unit_price * quantity) AS total_sales
+  FROM (dbo).[LITA Capstone;
+  ```
+
+- **Sales by Category**:
+  ```sql
+  SELECT category, SUM(unit_price * quantity) AS total_sales
+  FROM sales_table
+  GROUP BY category
+  ORDER BY total_sales DESC;
+  ```
+
+- **Monthly Sales Trends**:
+  ```sql
+  SELECT DATE_TRUNC('month', sale_date) AS month, SUM(unit_price * quantity) AS total_sales
+  FROM sales_table
+  GROUP BY month
+  ORDER BY month;
+  ```
+
+
+
 
 ### 2. Data Preparation
 ## 3. Data Preparation
