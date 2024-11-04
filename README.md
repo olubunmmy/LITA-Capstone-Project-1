@@ -1,7 +1,7 @@
 # LITA-Capstone-Project-1
 Project conducted during LITA Data Analysis training
 
-# Project Title:Sales Performance Analysis for a Retail Store: A Data-Driven Approach to Optimize Growth
+# Project Title:Sales Performance Analysis for a Retail Store
 
 ## Table of Contents
 1. **Introduction**
