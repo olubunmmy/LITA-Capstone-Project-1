@@ -33,16 +33,17 @@ Project conducted during LITA Data Analysis training
 
 #### Objectives
 
-To analyze sales data across various regions, product categories, and order dates to identify trends and optimize sales strategies.
+To analyze sales performance of a retail store across various regions, product categories, and order dates to identify insights such as top selling products,regional performance and monthly sales trends to optimize sales strategies.
+The goals of the project is to;
 - To understand sales performance over time.
 - To identify trends and patterns in sales data.
 - To assess the impact of various factors on sales performance.
-- To create visual dashboards.
+- To create an interactive Power BI dashboards that highlight these findings.
 
   #### Data Collection
 
  ### Data Sources
- All datasets were provided by our facilitator during the course of the LITA training
+The datasets used in this was primarily gotten from open source online but they were made available to us by our facilitators.
 
  ### Data Description
   The dataset include fields like:
