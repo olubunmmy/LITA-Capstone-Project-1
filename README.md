@@ -149,24 +149,26 @@ The datasets used in this project was primarily gotten from an open source onlin
 ####  SQL Queries Used
 - **Total Sales per product**:
   ```sql
-  SELECT Sum(unit_price * quantity) AS total_sales
-  FROM (dbo).[LITA Capstone;
+  SELECT Product, Sum(Total_sales) AS total_sales
+  FROM (dbo).[LITA Capstone Dataset.xlsl-Salesdata]
+  Group by Product
+  Order by 1 asc
   ```
 
-- **Sales by Category**:
+- **Highest selling product**:
   ```sql
-  SELECT category, SUM(unit_price * quantity) AS total_sales
-  FROM sales_table
-  GROUP BY category
-  ORDER BY total_sales DESC;
+  SELECT top 1 product, SUM(Total_Sales) AS total_sales_per_product
+  FROM (dbo).[LITA Capstone Dataset.xlsl-Salesdata]
+  GROUP BY product
+  ORDER BY 2 DESC;
   ```
 
-- **Monthly Sales Trends**:
+- **Monthly Sales total for the current year**:
   ```sql
-  SELECT DATE_TRUNC('month', sale_date) AS month, SUM(unit_price * quantity) AS total_sales
-  FROM sales_table
-  GROUP BY month
-  ORDER BY month;
+  SELECT Orderdate, sum (Total_sales) AS [monthly sale for current year]
+  FROM (dbo).[LITA Capstone Dataset.xlsl-Salesdata]
+  where OrderDate between '2024/01/01' and '2024/12/31'
+  Group by OrderDate
   ```
 
 
