@@ -108,6 +108,9 @@ The datasets used in this project was primarily gotten from an open source onlin
 - Another new column was added in Excel for Total Sales:
   ```excel
   = Unit Price * Quantity Sold
+
+  ![metrics cleaning salesdata](https://github.com/user-attachments/assets/8f1582a9-8474-4e81-a4b9-8820676192d8)
+
   
 -----
 ## Analysis Using Pivot Tables in Excel
