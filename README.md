@@ -172,9 +172,19 @@ The datasets used in this project was primarily gotten from an open source onlin
 #### 5.1. Importing Data into Power BI
 - Connect Power BI to the SQL database or import the Excel file with cleaned data.
 
-#### 5.2. Creating Visualizations
+#### 5.2. Visualizations
 - **Sales Overview Dashboard**:
   - Bar chart for total sales by category.
+
+
+
+
+
+
+
+
+
+
   - Line chart for monthly sales trends.
   - Card visuals for total sales and average order value.
 
@@ -242,44 +252,7 @@ This capstone project demonstrates a systematic approach to sales data analysis 
 ## 1. Introduction
 
 ### Project Overview
-This capstone project aims to analyze sales data from a fictional retail company. By employing tools like Excel, SQL, and Power BI, we will perform exploratory data analysis (EDA) to derive actionable insights that can drive sales strategies.
-
-### Objectives
-- To understand sales performance over time.
-- To identify trends and patterns in sales data.
-- To assess the impact of various factors on sales performance.
-- To create visual dashboards for stakeholders.
-
-## 2. Data Collection
-
-### Data Sources
-The dataset will be collected from:
-- Company sales records (CSV or Excel format).
-- Possible integration with external datasets (e.g., demographic data, economic indicators).
-
-### Data Description
-The dataset contains the following columns:
-- `Order ID`: Unique identifier for each order.
-- `Order Date`: Date of the order.
-- `Customer ID`: Unique identifier for customers.
-- `Product ID`: Unique identifier for products.
-- `Quantity Sold`: Number of units sold.
-- `Sales Amount`: Total sales amount for the order.
-- `Region`: Geographic area of the sale.
-- `Category`: Product category.
-
-## 3. Data Preparation
-
-### Data Cleaning
-- **Handling Missing Values**: Identify and fill or remove missing data.
-- **Data Types**: Ensure all columns have the correct data types (e.g., dates, integers).
-- **Outlier Detection**: Identify and handle any outliers in the sales data.
-
-### Data Transformation
-- **Date Formatting**: Convert `Order Date` to a standard format.
-- **Creating New Variables**: Generate additional columns for year, month, and quarter from `Order Date` for easier analysis.
-
-## 4. Exploratory Data Analysis (EDA)
+This capstone project aims to analyze sales data from a fictional retail company. By employing too
 
 ### Descriptive Statistics
 - Calculate mean, median, mode, and standard deviation for numerical columns.
@@ -298,29 +271,7 @@ The dataset contains the following columns:
 ## 5. Data Analysis Using SQL
 
 ### Key Queries
-1. **Total Sales by Month**:
-   ```sql
-   SELECT MONTH(Order_Date) AS Sales_Month, SUM(Sales_Amount) AS Total_Sales
-   FROM sales_data
-   GROUP BY MONTH(Order_Date)
-   ORDER BY Sales_Month;
-   ```
-
-2. **Top 10 Products by Sales**:
-   ```sql
-   SELECT Product_ID, SUM(Sales_Amount) AS Total_Sales
-   FROM sales_data
-   GROUP BY Product_ID
-   ORDER BY Total_Sales DESC
-   LIMIT 10;
-   ```
-
-3. **Sales by Region**:
-   ```sql
-   SELECT Region, SUM(Sales_Amount) AS Total_Sales
-   FROM sales_data
-   GROUP BY Region;
-   ```
+1. **Total Sales by Month
 
 ### Results
 - Summarize the findings from the SQL queries, including key metrics and any interesting patterns discovered.
@@ -337,13 +288,4 @@ The dataset contains the following columns:
 
 ### Key Visuals
 - Use a combination of line charts, bar graphs, and pie charts.
-- Implement slicers for dynamic filtering (e.g., by year, region).
-
-## 7. Conclusion
-
-### Summary of Findings
-- Present key insights drawn from the EDA and SQL analysis.
-- Highlight any trends observed in sales performance and customer behavior.
-
-### Future Recommendations
-- Suggest potential marketing strategies based on the analysis (e.g., target high-perform
+- Implement slicers for dynamic filtering (e.g., b
