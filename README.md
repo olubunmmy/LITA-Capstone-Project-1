@@ -46,6 +46,7 @@ The goals of the project is to;
 - To assess the impact of various factors on sales performance.
 - To create an interactive Power BI dashboards that highlight these findings.
 
+------
 ## Data Collection
 
  ### Data Sources
@@ -61,8 +62,8 @@ The datasets used in this project was primarily gotten from an open source onlin
   - Quantity Sold
   - Unit Price
     
-    
- ### Tools Used
+ -----  
+ ## Tools Used
 
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   For data cleaning and pivot table analysis.
@@ -78,18 +79,19 @@ The datasets used in this project was primarily gotten from an open source onlin
 - Github for Portfolio building
   
 -----
-  ## Data Preparation
+## Data Preparation
 
 ### Data Cleaning
 - **Handling Missing Values**:Missing data were identified and filled and columns with null datas were removed.
-- **Data Types**: In SQL it was ensure that all columns have the correct data types.
+- **Data Types**: In SQL it was ensured that all columns have the correct data types.
 - **Outlier Detection**:Outliers were identified  and handled  in the sales data.
 
 ### Data Transformation
-- **Date Formatting**: Convert `Order Date` to a standard format.
+- **Date Formatting**: `Order Date` were converted to a standard format.
 - **Creating New Variables**: Additional columns for year, month, and quarter from `Order Date` were generated for easier analysis.
 
 
+------
 ## Exploratory Data Analysis (EDA)
 
 ####  Loaded Data into Excel
@@ -105,7 +107,8 @@ The datasets used in this project was primarily gotten from an open source onlin
 - Another new column was added in Excel for Total Sales:
   ```excel
   = Unit Price * Quantity Sold
-
+  
+-----
 ## Analysis Using Pivot Tables in Excel
 
 #### Creating Pivot Tables
@@ -136,7 +139,7 @@ The datasets used in this project was primarily gotten from an open source onlin
 
 ---
 
-###  Data Analysis Using SQL
+## Data Analysis Using SQL
 
 ####  Database Setup
 - The cleaned datasets were imported into a SQL Server database.
@@ -167,12 +170,13 @@ The datasets used in this project was primarily gotten from an open source onlin
 
 ---
 
-### 5. Data Visualization Using Power BI
+###  Data Visualization Using Power BI
 
-#### 5.1. Importing Data into Power BI
+####  Importing Data into Power BI
 - Connect Power BI to the SQL database or import the Excel file with cleaned data.
 
-#### 5.2. Visualizations
+####  Visualizations
+
 - **Sales Overview Dashboard**:
   - Bar chart for total sales by category.
 
@@ -210,21 +214,7 @@ The datasets used in this project was primarily gotten from an open source onlin
 
 ####  Actionable Recommendations
 - Suggest inventory management strategies based on sales trends.
-- Propose marketing initiatives for underperforming products.
-- Recommend targeted promotions based on regional sales data.
-
----
-
-###  Final Presentation
-
-####  Compile Reports
-- Create a comprehensive report summarizing methodologies, findings, and visualizations.
-
-####  Prepare a Presentation
-- Use PowerPoint or similar tools to present key insights to stakeholders.
-
-####  Gather Feedback
-- Present findings to stakeholders and gather feedback for future iterations or improvements.
+- Propose marketing initiatives for underperforming 
 
 ---
 
@@ -233,21 +223,7 @@ This capstone project demonstrates a systematic approach to sales data analysis 
 
 
 
-## Table of Contents
-1. **Introduction**
-   - Project Overview
-   - Objectives
-2. **Data Collection**
-   - Data Sources
-   - Data Description
-3. **Data Preparation**
-   - Data Cleaning
-   - Data Transformation
-4. **Exploratory Data Analysis (EDA)**
-   - Descriptive Statistics
-   - Visualization
-   - Insights
-5. **Data Analysis Usi
+
 
 ## 1. Introduction
 
