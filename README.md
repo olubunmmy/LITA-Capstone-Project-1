@@ -3,6 +3,8 @@ Project conducted during LITA Data Analysis training
 
 # Project Title:Sales Performance Analysis for a Retail Store
 
+----
+
 ## Table of Contents
 1. **Introduction**
    - Project Overview
@@ -10,6 +12,7 @@ Project conducted during LITA Data Analysis training
 2. **Data Collection**
    - Data Sources
    - Data Description
+   
 3. **Data Preparation**
    - Data Cleaning
    - Data Transformation
@@ -27,8 +30,11 @@ Project conducted during LITA Data Analysis training
    - Summary of Findings
    - Future Recommendations
 
+     
+-----
 ## Introduction
 
+------
 ### Project Overview
 
 #### Objectives
@@ -70,6 +76,18 @@ The datasets used in this was primarily gotten from open source online but they 
   3. For  Visualization
   
 - Github for Portfolio building
+  
+-----
+  ## Data Preparation
+
+### Data Cleaning
+- **Handling Missing Values**:Missing data were identified and filled and columns with null datas were removed.
+- **Data Types**: In SQL it was ensure that all columns have the correct data types.
+- **Outlier Detection**:Outliers were identified  and handled  in the sales data.
+
+### Data Transformation
+- **Date Formatting**: Convert `Order Date` to a standard format.
+- **Creating New Variables**: Additional columns for year, month, and quarter from `Order Date` were generated for easier analysis.
 
 
 ## Exploratory Data Analysis (EDA)
@@ -88,7 +106,7 @@ The datasets used in this was primarily gotten from open source online but they 
   ```excel
   = Unit Price * Quantity Sold
 
-  ## Analysis Using Pivot Tables in Excel
+## Analysis Using Pivot Tables in Excel
 
 #### Creating Pivot Tables
 - **Inserting Pivot Table**: The data range was selected and inserted into a pivot table.
