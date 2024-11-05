@@ -109,7 +109,7 @@ The datasets used in this project was primarily gotten from an open source onlin
   ```excel
   = Unit Price * Quantity Sold
 
-  ![metrics cleaning salesdata](https://github.com/user-attachments/assets/8f1582a9-8474-4e81-a4b9-8820676192d8)
+ (https://github.com/user-attachments/assets/52fbe687-eb59-4adf-a4ad-e31c18d0d07c)
 
   
 -----
