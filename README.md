@@ -123,7 +123,7 @@ The datasets used in this was primarily gotten from open source online but they 
 3. **Sales by Month**:
    - `Region` was dragged to Rows and `Total Sales` to Values.
 
-#### 3.3. Calculating Measures
+####  Calculating Measures
 - **Average Sales per Product**:
   - It was calculated using this Excel formula;
 
@@ -136,12 +136,12 @@ The datasets used in this was primarily gotten from open source online but they 
 
 ---
 
-### 4. Data Analysis Using SQL
+###  Data Analysis Using SQL
 
-#### 4.1. Database Setup
-- The cleaned sales data was imported into a SQL Server database 
+####  Database Setup
+- The cleaned datasets were imported into a SQL Server database.
 
-#### 4.2. Basic SQL Queries
+####  SQL Queries Used
 - **Total Sales per product**:
   ```sql
   SELECT Sum(unit_price * quantity) AS total_sales
@@ -164,102 +164,6 @@ The datasets used in this was primarily gotten from open source online but they 
   ORDER BY month;
   ```
 
-
-
-
-### 2. Data Preparation
-## 3. Data Preparation
-
-### Data Cleaning
-- **Handling Missing Values**: Identify and fill or remove missing data.
-- **Data Types**: Ensure all columns have the correct data types (e.g., dates, integers).
-- **Outlier Detection**: Identify and handle any outliers in the sales data.
-
-### Data Transformation
-- **Date Formatting**: Convert `Order Date` to a standard format.
-- **Creating New Variables**: Generate additional columns for year, month, and quarter from `Order Date` for easier analysis.
-
-## 4. Exploratory Data Analysis (EDA)
-
-#### 2.1. Loaded Data into Excel
-- Imported the sales data into Excel.
-- It was ensured that data is structured with the appropriate columns.
-
-#### 2.2. Data Cleaning
-- **Removal Of Duplicates**:  Excel's feature was used to remove the duplicates in datasets
-- **Handle Missing Values**: Use functions like `IFERROR` or `ISBLANK` to manage missing data.
-- **Format Data**: Ensure all columns (especially dates and currencies) are correctly formatted.
-
-#### 2.3. Create a Total Sales Column
-- Add a new column in Excel for Total Sales:
-  ```excel
-  = Unit Price * Quantity Sold
-  ```
-
----
-
-### 3. Analysis Using Pivot Tables in Excel
-
-#### 3.1. Creating Pivot Tables
-- **Insert Pivot Table**: Select the data range and insert a pivot table.
-  
-#### 3.2. Key Pivot Table Analyses
-1. **Total Sales by Category**:
-   - Drag `Category` to Rows and `Total Sales` to Values.
-   - Set Value Field Settings to `SUM`.
-  
-2. **Monthly Sales Trends**:
-   - Drag `Sale Date` to Rows (group by Month).
-   - Drag `Total Sales` to Values.
-  
-3. **Sales by Region**:
-   - Drag `Region` to Rows and `Total Sales` to Values.
-
-#### 3.3. Calculating Measures
-- **Average Order Value**:
-  - Use a calculated field in the pivot table:
-  ```excel
-  = SUM(Total Sales) / COUNT(Order ID)
-  ```
-
-- **Sales Growth Percentage**:
-  - Compare sales month-over-month or year-over-year by creating a new column or using calculated fields in your pivot table.
-
----
-
-### 4. Data Analysis Using SQL
-
-#### 4.1. Database Setup
-- Import the cleaned sales data into a SQL database (e.g., MySQL, PostgreSQL).
-
-#### 4.2. Basic SQL Queries
-- **Total Sales**:
-  ```sql
-  SELECT SUM(unit_price * quantity) AS total_sales
-  FROM sales_table;
-  ```
-
-- **Sales by Category**:
-  ```sql
-  SELECT category, SUM(unit_price * quantity) AS total_sales
-  FROM sales_table
-  GROUP BY category
-  ORDER BY total_sales DESC;
-  ```
-
-- **Monthly Sales Trends**:
-  ```sql
-  SELECT DATE_TRUNC('month', sale_date) AS month, SUM(unit_price * quantity) AS total_sales
-  FROM sales_table
-  GROUP BY month
-  ORDER BY month;
-  ```
-
-- **Average Order Value**:
-  ```sql
-  SELECT AVG(unit_price * quantity) AS average_order_value
-  FROM sales_table;
-  ```
 
 ---
 
