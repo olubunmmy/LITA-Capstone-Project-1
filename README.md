@@ -183,7 +183,7 @@ https://github.com/olubunmmy/LITA-Capstone-Project-1/blob/main/metrics%20cleanin
 ###  Data Visualization Using Power BI
 
 ####  Importing Data into Power BI
-- Connect Power BI to the SQL database or import the Excel file with cleaned data.
+Power BI was connected to the SQL database and  the Excel file were imported with cleaned data.
 
 ####  Visualizations
 
@@ -236,43 +236,3 @@ This capstone project demonstrates a systematic approach to sales data analysis 
 
 
 
-
-## 1. Introduction
-
-### Project Overview
-This capstone project aims to analyze sales data from a fictional retail company. By employing too
-
-### Descriptive Statistics
-- Calculate mean, median, mode, and standard deviation for numerical columns.
-- Frequency distribution of categorical variables.
-
-### Visualization
-- **Histograms**: Distribution of `Sales Amount`.
-- **Bar Charts**: Total sales by `Category` and `Region`.
-- **Line Graphs**: Trends over time for monthly sales.
-
-### Insights
-- Identify peak sales periods.
-- Analyze best-selling products and categories.
-- Explore sales performance across different regions.
-
-
-### Key Queries
-1. **Total Sales by Month
-
-### Results
-- Summarize the findings from the SQL queries, including key metrics and any interesting patterns discovered.
-
-## 6. Data Visualization with Power BI
-
-### Dashboard Creation
-- Connect Power BI to the sales data source.
-- Build a dashboard that includes:
-  - Total Sales over Time
-  - Top Selling Products
-  - Sales by Region
-  - Comparison of Sales by Category
-
-### Key Visuals
-- Use a combination of line charts, bar graphs, and pie charts.
-- Implement slicers for dynamic filtering (e.g., b
