@@ -109,7 +109,7 @@ The datasets used in this project was primarily gotten from an open source onlin
   ```excel
   = Unit Price * Quantity Sold
 
- (https://github.com/user-attachments/assets/52fbe687-eb59-4adf-a4ad-e31c18d0d07c)
+ 
 
   
 -----
