@@ -139,6 +139,8 @@ The datasets used in this project was primarily gotten from an open source onlin
 
   =SUMIF(Range,Criteria,Sum range)
 
+  PIVOT TABLES
+
 ---
 
 ## Data Analysis Using SQL
