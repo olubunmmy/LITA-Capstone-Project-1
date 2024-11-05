@@ -49,10 +49,10 @@ The goals of the project is to;
   #### Data Collection
 
  ### Data Sources
-The datasets used in this was primarily gotten from open source online but they were made available to us by our facilitators.
+The datasets used in this project was primarily gotten from an open source online but they were made available to us by our facilitators.
 
  ### Data Description
-  The dataset include fields like:
+  The datasets include the following fields like:
   - Order ID
   - Customer ID
   - Product Name
@@ -60,7 +60,7 @@ The datasets used in this was primarily gotten from open source online but they 
   - Order date
   - Quantity Sold
   - Unit Price
-  - Total Sales
+    
     
  ### Tools Used
 
@@ -184,36 +184,36 @@ The datasets used in this was primarily gotten from open source online but they 
   - Region
   - Date Range
 
-#### 5.4. Creating Reports
+#### Creating Reports
 - Design a report layout that includes:
   - KPIs for sales performance.
   - Visuals showing sales trends and comparisons.
 
 ---
 
-### 6. Insights and Recommendations
+### Insights and Recommendations
 
-#### 6.1. Key Findings
+####  Key Findings
 - Identify the top-selling products and categories.
 - Highlight seasonal trends and sales patterns.
 - Assess the impact of regions on sales performance.
 
-#### 6.2. Actionable Recommendations
+####  Actionable Recommendations
 - Suggest inventory management strategies based on sales trends.
 - Propose marketing initiatives for underperforming products.
 - Recommend targeted promotions based on regional sales data.
 
 ---
 
-### 7. Final Presentation
+###  Final Presentation
 
-#### 7.1. Compile Reports
+####  Compile Reports
 - Create a comprehensive report summarizing methodologies, findings, and visualizations.
 
-#### 7.2. Prepare a Presentation
+####  Prepare a Presentation
 - Use PowerPoint or similar tools to present key insights to stakeholders.
 
-#### 7.3. Gather Feedback
+####  Gather Feedback
 - Present findings to stakeholders and gather feedback for future iterations or improvements.
 
 ---
@@ -237,17 +237,7 @@ This capstone project demonstrates a systematic approach to sales data analysis 
    - Descriptive Statistics
    - Visualization
    - Insights
-5. **Data Analysis Using SQL**
-   - Key Queries
-   - Results
-6. **Data Visualization with Power BI**
-   - Dashboard Creation
-   - Key Visuals
-7. **Conclusion**
-   - Summary of Findings
-   - Future Recommendations
-
----
+5. **Data Analysis Usi
 
 ## 1. Introduction
 
@@ -356,9 +346,4 @@ The dataset contains the following columns:
 - Highlight any trends observed in sales performance and customer behavior.
 
 ### Future Recommendations
-- Suggest potential marketing strategies based on the analysis (e.g., target high-performing regions).
-- Recommend further analysis on customer demographics or product performance.
-
----
-
-This comprehensive project outline provides a structured approach to analyzing sales data, using powerful tools to extract meaningful insights and present them effectively. You can adapt each section according to the specifics of the dataset you work with and the insights you uncover.
+- Suggest potential marketing strategies based on the analysis (e.g., target high-perform
