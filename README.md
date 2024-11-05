@@ -108,7 +108,7 @@ The datasets used in this project was primarily gotten from an open source onlin
 - Another new column was added in Excel for Total Sales:
   ```excel
   = Unit Price * Quantity Sold
-
+https://github.com/olubunmmy/LITA-Capstone-Project-1/blob/main/metrics%20cleaning%20salesdata.png
  
 
   
@@ -176,9 +176,6 @@ The datasets used in this project was primarily gotten from an open source onlin
   where OrderDate between '2024/01/01' and '2024/12/31'
   Group by OrderDate
   ```
-(https://github.com/user-attachments/assets/93e61072-e577-4637-9d96-898a3f3ff9a3)
-
-(https://github.com/user-attachments/assets/f654c07c-75d2-4c94-be96-6a4214e3efa3)
 
 
 ---
