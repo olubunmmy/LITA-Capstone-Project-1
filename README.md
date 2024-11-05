@@ -46,7 +46,7 @@ The goals of the project is to;
 - To assess the impact of various factors on sales performance.
 - To create an interactive Power BI dashboards that highlight these findings.
 
-  #### Data Collection
+## Data Collection
 
  ### Data Sources
 The datasets used in this project was primarily gotten from an open source online but they were made available to us by our facilitators.
