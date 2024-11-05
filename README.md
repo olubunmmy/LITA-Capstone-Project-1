@@ -136,7 +136,8 @@ The datasets used in this project was primarily gotten from an open source onlin
 
 - **Total Revenue by Region**:
   This measure was also calculated using the below excel metric
-  
+
+  =SUMIF(Range,Criteria,Sum range)
 
 ---
 
