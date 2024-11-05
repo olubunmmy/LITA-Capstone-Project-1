@@ -192,6 +192,8 @@ The datasets used in this project was primarily gotten from an open source onlin
 
 - **Sales Overview Dashboard**:
   - Bar chart for total sales by category.
+    
+
 
 
 
