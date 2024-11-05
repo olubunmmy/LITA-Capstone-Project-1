@@ -129,6 +129,8 @@ The datasets used in this project was primarily gotten from an open source onlin
   
 3. **Sales by Month**:
    - `Region` was dragged to Rows and `Total Sales` to Values.
+  
+     (https://github.com/user-attachments/assets/ed4bfe02-5c47-48e3-a304-7f0e1ceb8df2)
 
 ####  Calculating Measures
 - **Average Sales per Product**:
@@ -142,7 +144,6 @@ The datasets used in this project was primarily gotten from an open source onlin
 
   =SUMIF(Range,Criteria,Sum range)
 
-  PIVOT TABLES
 
 ---
 
@@ -175,6 +176,9 @@ The datasets used in this project was primarily gotten from an open source onlin
   where OrderDate between '2024/01/01' and '2024/12/31'
   Group by OrderDate
   ```
+(https://github.com/user-attachments/assets/93e61072-e577-4637-9d96-898a3f3ff9a3)
+
+(https://github.com/user-attachments/assets/f654c07c-75d2-4c94-be96-6a4214e3efa3)
 
 
 ---
