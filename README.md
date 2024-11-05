@@ -41,7 +41,7 @@ Project conducted during LITA Data Analysis training
 
 This Capstone Project aims to analyze sales performance of a retail store across various regions, product categories, and order dates to identify insights such as top selling products,regional performance and monthly sales trends to optimize sales strategies.
 
-The goals of the project is to;
+The goals of the project is;
 - To understand sales performance over time.
 - To identify trends and patterns in sales data.
 - To assess the impact of various factors on sales performance.
@@ -51,10 +51,10 @@ The goals of the project is to;
 ## Data Collection
 
  ### Data Sources
-The datasets used in this project was primarily gotten from an open source online but they were made available to us by our facilitators.
+The datasets used in this project was primarily gotten from an open source online but they were made available to us by our facilitators LITA class.
 
  ### Data Description
-  The datasets include the following fields like:
+  The datasets used include the following fields:
   - Order ID
   - Customer ID
   - Product Name
@@ -245,7 +245,6 @@ This capstone project aims to analyze sales data from a fictional retail company
 - Analyze best-selling products and categories.
 - Explore sales performance across different regions.
 
-## 5. Data Analysis Using SQL
 
 ### Key Queries
 1. **Total Sales by Month
