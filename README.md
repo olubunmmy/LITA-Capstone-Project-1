@@ -89,7 +89,7 @@ The datasets used in this project was primarily gotten from an open source onlin
 
 ### Data Transformation
 - **Date Formatting**: `Order Date` were converted to a standard format.
-- **Creating New Variables**: Additional columns for year, month, and quarter from `Order Date` were generated for easier analysis.
+- **Creating New Variables**: Additional columns for year, month, and quarter from `Order Date` were generated for easier analysis..
 
 
 ------
